@@ -49,7 +49,7 @@ function LandingPage() {
   return (
     <div className={`${styles.innerContainerSizing} py-5`}>
       <LandingInfo isLoading={isLoading} Text={mainText} />
-      <WhyInfo isLoading={isLoading} ImgURL={process.env.REACT_APP_STATIC_IMAGE + "whyone.jpg"} Header="Neden Flexper ?" InfoBars={groupedData[0] || []} Align={false} />
+      <WhyInfo isLoading={isLoading} ImgURL={process.env.REACT_APP_STATIC_IMAGE + "whyone.jpg"} Header="Neden WHEElio ?" InfoBars={groupedData[0] || []} Align={false} />
       <WhyInfo isLoading={isLoading} ImgURL={process.env.REACT_APP_STATIC_IMAGE + "whytwo.jpg"} InfoBars={groupedData[1] || []} Align={true} />
       <ServicesInfo isLoading={isLoading} ServicesLeft={groupedService[0] || []} ServicesRight={groupedService[1] || []} />
 
@@ -59,7 +59,7 @@ function LandingPage() {
         }
 
         {
-          <SimpleSlider slidesToShow={3} header='Flexper için neler dediler?' items={textData || []} renderFunction={(item) => (
+          <SimpleSlider slidesToShow={3} header='WHEElio için neler dediler?' items={textData || []} renderFunction={(item) => (
             <SliderCommentCard Content={item.content} Username={item.userName} StarCount={item.starCount} UserType={item.userType} />
           )} />
         }

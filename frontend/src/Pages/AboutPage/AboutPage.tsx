@@ -23,11 +23,11 @@ function AboutPage() {
                 </div>
                 <div className='row my-5 pt-1'>
                     <div className='col-12'>
-                        <h2 className={styles.textHeader}>Flexper'ın Hikayesi</h2>
+                        <h2 className={styles.textHeader}>WHEElio'nun Hikayesi</h2>
                         <p className={`${styles.textContent} mt-4`}>
-                            Flexper, yenilikçi mobilite çözümleri geliştirmek amacıyla çok
+                            WHEElio, yenilikçi mobilite çözümleri geliştirmek amacıyla çok
                             alternatifli ve müşteri merkezli yeni bir abonelik hizmeti olarak
-                            Gembox A.Ş altında faaliyete girmiş bir projedir. Flexper araç aboneliği,
+                            Gembox A.Ş altında faaliyete girmiş bir projedir. WHEElio araç aboneliği,
                             ihtiyacınız olabilecek tüm hizmetlerin bir arada olduğu yeni bir araç
                             kiralama şeklidir.
                         </p>
@@ -59,7 +59,7 @@ function AboutPage() {
                     sliderError ?? { sliderError }
                 }
 
-                <SimpleSlider slidesToShow={3} header='Flexper için neler dediler?' items={textData || []} renderFunction={(item) => (
+                <SimpleSlider slidesToShow={3} header='WHEElio için neler dediler?' items={textData || []} renderFunction={(item) => (
                     <SliderCommentCard Content={item.content} Username={item.userName} StarCount={item.starCount} UserType={item.userType} />
                 )} />
             </div>

@@ -55,19 +55,19 @@ namespace WebApi.DbOperations
                     new LandingServiceText { Title  = "Ücretsiz Araç Yıkama", Content = "İkamet ettiğiniz ildeki tüm Otovınn noktlarında ayda 2 Ücretsiz iç-dış yıkama temizlik hizmetinden yararlanabilirsiniz.", IconId=1},
                     new LandingServiceText { Title  = "Ücretsiz Otopark", Content = "Üyeliğiniz kapsamında ayda toplamda 300 TL`lik limitiniz dahilinde yararlanabilirsiniz.", IconId=1 },
                     new LandingServiceText { Title  = "HGS Sistemleri", Content = "Araçlarımız, HGS ve OGS sistemlerini kullanarak geçiş noktalarında sorunsuz bir şekilde kullanılabilir.", IconId=1},
-                    new LandingServiceText { Title  = "Otobil ile Yakıt alma imkanı", Content = "Flexper araç aboneliği kapsamında aracınızda Otobil cihazı mevcut olup, dilemeniz durumunda yakıtınızı bu cihaz ile para ödemeden alabilir, ay sonunda abonelik bedelinize ek olarak toplu halde ödemesini Flexper`a yapabilirsiniz.", IconId=2},
+                    new LandingServiceText { Title  = "Otobil ile Yakıt alma imkanı", Content = "WHEElio araç aboneliği kapsamında aracınızda Otobil cihazı mevcut olup, dilemeniz durumunda yakıtınızı bu cihaz ile para ödemeden alabilir, ay sonunda abonelik bedelinize ek olarak toplu halde ödemesini WHEElio`a yapabilirsiniz.", IconId=2},
                     new LandingServiceText { Title  = "Kapıya Hizmet", Content = "Size özel olarak sunulan hizmetimiz sayesinde, aracınız kapınıza teslim edilir.", IconId=1},
                     new LandingServiceText { Title  = "Ücretsiz Vale", Content = "İkamet ettiğiniz ildeki tüm valelerden 300 TL`lik  limitiniz dahilinde yararlanabilirsiniz.", IconId=1},
                 };
 
                 var FAQ = new List<FAQText>{
-                    new FAQText { Title= "Flexper nedir?", Content= "Flexper, yenilikçi mobilite çözümleri geliştirmek amacıyla çok alternatifli ve müşteri merkezli yeni bir abonelik hizmeti olarak faaliyete girmiş bir projedir. Daha fazla bilgi için Biz Kimiz? sayfasını ziyaret edebilirsiniz." },
+                    new FAQText { Title= "WHEElio nedir?", Content= "WHEElio, yenilikçi mobilite çözümleri geliştirmek amacıyla çok alternatifli ve müşteri merkezli yeni bir abonelik hizmeti olarak faaliyete girmiş bir projedir. Daha fazla bilgi için Biz Kimiz? sayfasını ziyaret edebilirsiniz." },
                     new FAQText { Title= "Araç aboneliği nedir?", Content= "Araç aboneliği, araç ihtiyacınızı karşılamak için üretilen alternatif bir iş modelidir. Son zamanlarda popülerleşen abonelik hizmetlerinin en çok dikkat çeken örneklerinden birisi olan araç aboneliği bireysel kullanıcılara büyük avantajlar sağlıyor." },
-                    new FAQText { Title= "Nasıl abone olurum?", Content= "Flexper sitemizi inceledikten sonra bir araç seçin. Sonrasında bize talebinizi Bilgi İletişim ve Talep Formumuz ile iletin. Biz size ulaşalım ve ayrıntıları konuşalım. Not: Dilerseniz bu formu sadece bilgi sahibi olmak için de kullanabilirsiniz." },
+                    new FAQText { Title= "Nasıl abone olurum?", Content= "WHEElio sitemizi inceledikten sonra bir araç seçin. Sonrasında bize talebinizi Bilgi İletişim ve Talep Formumuz ile iletin. Biz size ulaşalım ve ayrıntıları konuşalım. Not: Dilerseniz bu formu sadece bilgi sahibi olmak için de kullanabilirsiniz." },
                     new FAQText { Title= "Abonelik sistemine giriş ücreti var mı?", Content= "Sisteme giriş esnasında depozito amaçlı 1 aylık kira bedeli talep edilmekte olup abonelik dönemi sonunda bu bedel kullanıcıya gerekli şartların sağlanması durumunda iade edilmektedir." },
                     new FAQText { Title= "Abonelik için gerekli ön şartlar nelerdir?", Content= "25 yaş ve üzerinde olmak 3 yıl ve üzeri T.C., AB veya uluslararası geçerliliği olan B tipi (veya üzeri) bir ehliyete sahip olmak" },
                     new FAQText { Title= "Aylık abonelik bedelini nasıl ödeyeceğim?", Content= "Projemiz kapsamında anlaşmalı olduğumuz banka güvencesiyle ödemelerinizi gerçekleştirebilirsiniz. Ayrıntılı bilgi için bizimle irtibata geçebilirsiniz." },
-                    new FAQText { Title= "Aile Paketi Nedir?", Content= "Flexper’da artık seçmiş olduğunuz aracı ailenizle birlikte kullanabilirsiniz! Aylık sadece 699 TL+KDV/Birey ödeyerek dilediğiniz aile bireyini araca ek kullanıcı olarak tanımlayabilir ve sizin aracı kullanmadığınız zamanlarda aile bireylerinizin mobilite ihtiyacını karşılayabilirsiniz. Ek Kullanıcı olarak sadece siz ile aynı adreste ikamet eden birinci derece yakınlarınızı(anne-baba-kardeş-eş-çocuk) tanımlayabilirsiniz. Ayrıntılı bilgi için bizimle iletişime geçin!" },
+                    new FAQText { Title= "Aile Paketi Nedir?", Content= "WHEElio’da artık seçmiş olduğunuz aracı ailenizle birlikte kullanabilirsiniz! Aylık sadece 699 TL+KDV/Birey ödeyerek dilediğiniz aile bireyini araca ek kullanıcı olarak tanımlayabilir ve sizin aracı kullanmadığınız zamanlarda aile bireylerinizin mobilite ihtiyacını karşılayabilirsiniz. Ek Kullanıcı olarak sadece siz ile aynı adreste ikamet eden birinci derece yakınlarınızı(anne-baba-kardeş-eş-çocuk) tanımlayabilirsiniz. Ayrıntılı bilgi için bizimle iletişime geçin!" },
                     new FAQText { Title= "Size nasıl ulaşırım?", Content= " sayfamız üzerinden bilgi ve talep formumuzu doldurmanız yeterli. Ekip arkadaşlarımız en kısa sürede tarafınıza ulaşıp ayrıntılı bilgi veriyor olacaklar. Whatsapp ve  İletişim hattımız: emptyPhoneNumber E-Posta adresimiz: emptyMail" },
                     new FAQText { Title= "Aradığım sorunun yanıtını bulamadım. Bana yardımcı olur musunuz?", Content= " sayfamız üzerinden ulaşabilirsiniz. Eğer aradığım sorunun yanıtı buralarda yok diyorsanız sayfamız üzerinden bilgi ve talep formunu doldurabilirsiniz. Arkadaşlarımız kısa süre içersinde size ulaşıp sorularınıza yanıt vereceklerdir. " },
 
@@ -75,7 +75,7 @@ namespace WebApi.DbOperations
 
                 var Roles = new List<Role>{
                     new Role {Name= "Admin", Description="Yönetici Rolü Bilgisi"},
-                    new Role {Name= "Flexper Abonesi", Description="Abone Rolü Bilgisi"},
+                    new Role {Name= "WHEElio Abonesi", Description="Abone Rolü Bilgisi"},
                     new Role {Name= "SuperUser", Description="Süper Kullanıcı Rolü Bilgisi"},
                 };
 
@@ -93,7 +93,7 @@ namespace WebApi.DbOperations
                     new UserComment{Content="Dönemsel olarak ekonomik koşullarda araç kiralayabilme imkanı sağlamaları bu projeyi tercih etmemi sağladı", UserId=2, StarCount=3},
                     new UserComment{Content="Hiçbir şeyi düşünmüyorum benim için düşünenler var, her zaman arayabileceğim kişiler var.", UserId=3, StarCount=5},
                     new UserComment{Content="Muhteşem bir hizmet", UserId=4, StarCount=1},
-                    new UserComment{Content="Flexper projesini ilk defa duyduğumda heyecanlanmıştım. Gayet ekonomik bir çözüm olduğunu söyleyebilirim", UserId=5, StarCount=3},
+                    new UserComment{Content="WHEElio projesini ilk defa duyduğumda heyecanlanmıştım. Gayet ekonomik bir çözüm olduğunu söyleyebilirim", UserId=5, StarCount=3},
                     new UserComment{Content="Araç abonelik rahatlığını ben de yaşamak istedim.", UserId=6, StarCount=6}
                 };
 

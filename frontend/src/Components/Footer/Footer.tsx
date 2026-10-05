@@ -13,7 +13,7 @@ function Footer() {
   ];
 
   const aboutItems = [
-    { Text: "Flexper Nedir?", Href: "FAQ" },
+    { Text: "WHEElio Nedir?", Href: "FAQ" },
     { Text: "Araç Aboneliği Nedir?", Href: "FAQ" },
     { Text: "Nasıl Abone Olurum?", Href: "FAQ" },
     { Text: "Aile Paketi Nedir?", Href: "FAQ" },
